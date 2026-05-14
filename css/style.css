@@ -874,11 +874,21 @@ input, textarea, select { font: inherit; }
     width: 100%;
     color: var(--clr-text) !important;
   }
+  .nav__link::after { display: none; }
+  .nav__link.active { color: var(--clr-wood-1) !important; }
   .nav__link--cta {
     margin: 1rem 2rem 0;
     width: calc(100% - 4rem);
     text-align: center;
     justify-content: center;
+    background: transparent;
+    border: 2px solid var(--clr-wood-1);
+    color: var(--clr-wood-1) !important;
+  }
+  .nav__link--cta:hover,
+  .nav__link--cta.active {
+    background: var(--clr-wood-1);
+    color: var(--clr-white) !important;
   }
   .nav__toggle { display: flex; }
   .form-row { grid-template-columns: 1fr; }
