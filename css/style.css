@@ -443,7 +443,9 @@ input, textarea, select { font: inherit; }
   box-shadow: var(--shadow-lg);
 }
 .portfolio__item.hidden {
-  display: none;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
 }
 
 .portfolio__img {
@@ -859,14 +861,12 @@ input, textarea, select { font: inherit; }
   .nav__links {
     display: none;
     position: fixed;
-    top: 72px; left: 0; right: 0; bottom: 0;
+    top: 72px; left: 0; right: 0;
     background: var(--clr-bg);
     flex-direction: column;
     gap: 0;
     padding: 1rem 0 2rem;
     box-shadow: var(--shadow-lg);
-    z-index: 200;
-    overflow-y: auto;
   }
   .nav__links.open { display: flex; }
   .nav__link {
