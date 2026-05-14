@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f0ece4"/><stop offset="100%" stop-color="#dfd8c8"/></linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#d8d0c0"/><stop offset="50%" stop-color="#ece8de"/><stop offset="100%" stop-color="#c8c0b0"/></linearGradient>
+    <linearGradient id="shelf" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e8e0d0"/><stop offset="100%" stop-color="#d0c8b8"/></linearGradient>
+    <linearGradient id="door" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#ccc4b4"/><stop offset="50%" stop-color="#e0d8c8"/><stop offset="100%" stop-color="#beb8a8"/></linearGradient>
+    <filter id="s"><feDropShadow dx="3" dy="5" stdDeviation="8" flood-color="#6b5840" flood-opacity="0.22"/></filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="110" y="40" width="580" height="520" fill="#e8e4dc"/>
+  <rect x="110" y="40" width="20" height="520" fill="url(#frame)" filter="url(#s)"/>
+  <rect x="670" y="40" width="20" height="520" fill="url(#frame)"/>
+  <rect x="110" y="40" width="580" height="18" fill="url(#frame)"/>
+  <rect x="110" y="544" width="580" height="16" fill="url(#frame)"/>
+  <rect x="303" y="40" width="14" height="520" fill="url(#frame)"/>
+  <rect x="483" y="40" width="14" height="520" fill="url(#frame)"/>
+  <rect x="130" y="58" width="173" height="486" fill="#f5f2ec"/>
+  <rect x="130" y="145" width="173" height="10" rx="1" fill="url(#shelf)" filter="url(#s)"/>
+  <rect x="130" y="232" width="173" height="10" rx="1" fill="url(#shelf)"/>
+  <rect x="130" y="320" width="173" height="10" rx="1" fill="url(#shelf)"/>
+  <rect x="130" y="408" width="173" height="10" rx="1" fill="url(#shelf)"/>
+  <rect x="140" y="108" width="40" height="35" rx="2" fill="#8b9bb8" opacity="0.8"/>
+  <rect x="185" y="112" width="40" height="31" rx="2" fill="#b8a888" opacity="0.8"/>
+  <rect x="230" y="108" width="40" height="35" rx="2" fill="#7a8870" opacity="0.8"/>
+  <rect x="140" y="198" width="32" height="30" rx="2" fill="#c87840" opacity="0.7"/>
+  <rect x="174" y="198" width="28" height="30" rx="2" fill="#4a6888" opacity="0.7"/>
+  <rect x="204" y="198" width="36" height="30" rx="2" fill="#8a7060" opacity="0.7"/>
+  <rect x="242" y="198" width="52" height="30" rx="3" fill="#e8e0d0" opacity="0.8"/>
+  <rect x="140" y="286" width="42" height="30" rx="2" fill="#c8a8b8" opacity="0.8"/>
+  <rect x="185" y="288" width="42" height="28" rx="2" fill="#88a8c8" opacity="0.8"/>
+  <rect x="230" y="286" width="60" height="30" rx="2" fill="#a8b898" opacity="0.8"/>
+  <rect x="140" y="374" width="60" height="30" rx="2" fill="#d8c8a8" opacity="0.7"/>
+  <rect x="204" y="374" width="40" height="30" rx="2" fill="#9898a8" opacity="0.7"/>
+  <ellipse cx="158" cy="520" rx="28" ry="12" fill="#5a4030" opacity="0.6"/>
+  <ellipse cx="218" cy="520" rx="28" ry="12" fill="#3a3a4a" opacity="0.6"/>
+  <rect x="317" y="58" width="78" height="486" rx="2" fill="url(#door)" filter="url(#s)"/>
+  <rect x="323" y="68" width="66" height="220" rx="2" fill="none" stroke="#b8b0a0" stroke-width="2" opacity="0.6"/>
+  <rect x="323" y="298" width="66" height="238" rx="2" fill="none" stroke="#b8b0a0" stroke-width="2" opacity="0.6"/>
+  <rect x="386" y="290" width="6" height="40" rx="3" fill="#c8b880" opacity="0.9"/>
+  <rect x="395" y="58" width="78" height="486" rx="2" fill="url(#door)"/>
+  <rect x="401" y="68" width="66" height="220" rx="2" fill="none" stroke="#b8b0a0" stroke-width="2" opacity="0.6"/>
+  <rect x="401" y="298" width="66" height="238" rx="2" fill="none" stroke="#b8b0a0" stroke-width="2" opacity="0.6"/>
+  <rect x="400" y="290" width="6" height="40" rx="3" fill="#c8b880" opacity="0.9"/>
+  <rect x="497" y="58" width="173" height="486" fill="#f5f2ec"/>
+  <rect x="502" y="82" width="163" height="6" rx="3" fill="#b8a888" opacity="0.7"/>
+  <g fill="none" stroke="#9a8868" stroke-width="1.5" opacity="0.6">
+    <path d="M520 88 Q525 78 530 88"/><path d="M548 88 Q553 78 558 88"/>
+    <path d="M576 88 Q581 78 586 88"/><path d="M604 88 Q609 78 614 88"/><path d="M632 88 Q637 78 642 88"/>
+  </g>
+  <rect x="512" y="92" width="30" height="120" rx="4" fill="#5a7898" opacity="0.5"/>
+  <rect x="545" y="95" width="26" height="115" rx="4" fill="#c8a070" opacity="0.5"/>
+  <rect x="574" y="92" width="28" height="120" rx="4" fill="#8a7090" opacity="0.5"/>
+  <rect x="605" y="95" width="26" height="115" rx="4" fill="#5a7060" opacity="0.5"/>
+  <rect x="634" y="92" width="24" height="120" rx="4" fill="#c87060" opacity="0.5"/>
+  <rect x="497" y="225" width="173" height="10" rx="1" fill="url(#shelf)"/>
+  <rect x="502" y="240" width="163" height="52" rx="3" fill="url(#door)" filter="url(#s)"/>
+  <rect x="508" y="246" width="151" height="40" rx="2" fill="none" stroke="#b8b0a0" stroke-width="1.5" opacity="0.5"/>
+  <rect x="570" y="260" width="30" height="8" rx="4" fill="#c8b880" opacity="0.8"/>
+  <rect x="502" y="298" width="163" height="52" rx="3" fill="url(#door)"/>
+  <rect x="570" y="318" width="30" height="8" rx="4" fill="#c8b880" opacity="0.8"/>
+  <rect x="502" y="356" width="163" height="52" rx="3" fill="url(#door)"/>
+  <rect x="570" y="376" width="30" height="8" rx="4" fill="#c8b880" opacity="0.8"/>
+  <text x="400" y="590" font-family="Georgia, serif" font-size="16" fill="#7a6848" text-anchor="middle" opacity="0.7" font-style="italic">Ch&#234;ne blanchi &#183; organisation sur mesure</text>
+</svg>

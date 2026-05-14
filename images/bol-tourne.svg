@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#f5ede0"/><stop offset="100%" stop-color="#ddc8a8"/></radialGradient>
+    <radialGradient id="bowl" cx="38%" cy="30%" r="65%"><stop offset="0%" stop-color="#e8c080"/><stop offset="35%" stop-color="#c89050"/><stop offset="70%" stop-color="#a06030"/><stop offset="100%" stop-color="#7a4018"/></radialGradient>
+    <radialGradient id="interior" cx="45%" cy="35%" r="55%"><stop offset="0%" stop-color="#d4a860"/><stop offset="50%" stop-color="#b07838"/><stop offset="100%" stop-color="#8a5020"/></radialGradient>
+    <radialGradient id="base" cx="50%" cy="30%" r="60%"><stop offset="0%" stop-color="#b88040"/><stop offset="100%" stop-color="#7a5020"/></radialGradient>
+    <filter id="s"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#5c3010" flood-opacity="0.3"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="470" rx="170" ry="22" fill="#7a5020" opacity="0.2" filter="url(#soft)"/>
+  <ellipse cx="400" cy="464" rx="155" ry="12" fill="#c89050" opacity="0.12"/>
+  <ellipse cx="400" cy="456" rx="50" ry="14" fill="url(#base)"/>
+  <rect x="375" y="442" width="50" height="18" rx="4" fill="url(#base)" filter="url(#s)"/>
+  <path d="M210 380 Q230 200 400 185 Q570 200 590 380 Q560 470 400 478 Q240 470 210 380 Z" fill="url(#bowl)" filter="url(#s)"/>
+  <g fill="none" opacity="0.22">
+    <path d="M235 370 Q255 220 400 208 Q545 220 565 370 Q545 445 400 452 Q255 445 235 370 Z" stroke="#7a4818" stroke-width="1.5"/>
+    <path d="M255 368 Q272 232 400 222 Q528 232 545 368 Q528 438 400 444 Q272 438 255 368 Z" stroke="#6a3810" stroke-width="1.2"/>
+    <path d="M278 362 Q292 245 400 236 Q508 245 522 362 Q508 428 400 434 Q292 428 278 362 Z" stroke="#5c3010" stroke-width="1"/>
+    <path d="M300 355 Q312 258 400 250 Q488 258 500 355 Q488 418 400 423 Q312 418 300 355 Z" stroke="#5c3010" stroke-width="0.9"/>
+    <path d="M322 346 Q332 270 400 264 Q468 270 478 346 Q468 405 400 410 Q332 405 322 346 Z" stroke="#6b3c18" stroke-width="0.8"/>
+    <path d="M344 336 Q352 282 400 276 Q448 282 456 336 Q448 392 400 397 Q352 392 344 336 Z" stroke="#7a4820" stroke-width="0.7"/>
+  </g>
+  <path d="M265 345 Q280 220 400 210 Q520 220 535 345 Q520 420 400 428 Q280 420 265 345 Z" fill="url(#interior)"/>
+  <g fill="none" opacity="0.18">
+    <path d="M290 335 Q302 235 400 228 Q498 235 510 335 Q498 402 400 410 Q302 402 290 335 Z" stroke="#7a4818" stroke-width="1.2"/>
+    <path d="M314 322 Q324 250 400 244 Q476 250 486 322 Q476 385 400 393 Q324 385 314 322 Z" stroke="#6a3810" stroke-width="1"/>
+    <path d="M338 308 Q346 264 400 258 Q454 264 462 308 Q454 368 400 375 Q346 368 338 308 Z" stroke="#5c3010" stroke-width="0.8"/>
+    <path d="M360 292 Q366 276 400 272 Q434 276 440 292 Q434 348 400 354 Q366 348 360 292 Z" stroke="#5c3010" stroke-width="0.7"/>
+  </g>
+  <ellipse cx="400" cy="310" rx="42" ry="32" fill="#9a6030" opacity="0.4"/>
+  <ellipse cx="400" cy="310" rx="24" ry="18" fill="#7a4018" opacity="0.3"/>
+  <path d="M245 320 Q260 210 380 200 Q320 195 272 270 Z" fill="white" opacity="0.18"/>
+  <path d="M250 280 Q262 230 330 215" stroke="white" stroke-width="3" fill="none" opacity="0.2" stroke-linecap="round"/>
+  <ellipse cx="520" cy="340" rx="18" ry="12" fill="none" stroke="#6b3810" stroke-width="1.5" opacity="0.35"/>
+  <ellipse cx="520" cy="340" rx="10" ry="6" fill="none" stroke="#6b3810" stroke-width="1" opacity="0.25"/>
+  <text x="400" y="522" font-family="Georgia, serif" font-size="16" fill="#8b5820" text-anchor="middle" opacity="0.7" font-style="italic">Merisier &#183; finition cire d&#39;abeille</text>
+</svg>
