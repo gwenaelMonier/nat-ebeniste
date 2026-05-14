@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nat' Ébénisterie — Créations sur mesure</title>
+  <meta name="description" content="Nat' Ébénisterie — Mobilier et objets en bois faits main avec soin. Créations sur mesure, restaurations et finitions artisanales." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#accueil" class="nav__logo">Nat' <span>Ébénisterie</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#accueil" class="nav__link">Accueil</a></li>
+        <li><a href="#apropos" class="nav__link">À propos</a></li>
+        <li><a href="#realisations" class="nav__link">Réalisations</a></li>
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="accueil">
+      <div class="hero__bg"></div>
+      <div class="hero__content container">
+        <p class="hero__eyebrow">Ébénisterie artisanale</p>
+        <h1 class="hero__title">Le bois, <em>façonné</em><br>avec passion</h1>
+        <p class="hero__subtitle">Chaque pièce est unique. Fabriquées à la main dans mon atelier, mes créations mêlent savoir-faire traditionnel et sensibilité contemporaine.</p>
+        <div class="hero__actions">
+          <a href="#realisations" class="btn btn--primary">Voir mes réalisations</a>
+          <a href="#contact" class="btn btn--outline">Me contacter</a>
+        </div>
+      </div>
+      <div class="hero__scroll">
+        <span>Découvrir</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      </div>
+    </section>
+
+    <!-- À PROPOS -->
+    <section class="about" id="apropos">
+      <div class="container about__grid">
+        <div class="about__visual">
+          <div class="about__img-wrap">
+            <div class="about__img-placeholder">
+              <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="120" height="120" rx="4" fill="#c9a96e" opacity="0.15"/>
+                <path d="M30 90 Q60 20 90 90" stroke="#8b5e3c" stroke-width="3" fill="none"/>
+                <path d="M45 90 Q60 40 75 90" stroke="#8b5e3c" stroke-width="2" fill="none"/>
+                <circle cx="60" cy="30" r="8" fill="#8b5e3c" opacity="0.4"/>
+                <rect x="25" y="88" width="70" height="4" rx="2" fill="#8b5e3c" opacity="0.5"/>
+              </svg>
+              <p>Photo de l'atelier</p>
+            </div>
+          </div>
+          <div class="about__badge">
+            <strong>15 ans</strong>
+            <span>d'expérience</span>
+          </div>
+        </div>
+        <div class="about__text">
+          <p class="section__eyebrow">À propos</p>
+          <h2 class="section__title">Natalie, ébéniste <em>passionnée</em></h2>
+          <p>Issue d'une formation aux Compagnons du Devoir, j'ai développé mon goût pour le bois dès l'adolescence dans l'atelier de mon grand-père. Aujourd'hui, je crée des pièces uniques qui s'inscrivent dans la durée.</p>
+          <p>Mon atelier est situé en Bretagne. J'y travaille essentiellement des bois locaux — chêne, frêne, noyer — en privilégiant les circuits courts et les essences durables.</p>
+          <ul class="about__values">
+            <li>
+              <div class="about__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l2.09 6.26L20 9l-4.91 3.57L17 19l-5-3.27L7 19l1.91-6.43L4 9l5.91-.74z"/></svg>
+              </div>
+              <div>
+                <strong>Savoir-faire artisanal</strong>
+                <span>Techniques traditionnelles transmises et perfectionnées</span>
+              </div>
+            </li>
+            <li>
+              <div class="about__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div>
+                <strong>Matériaux durables</strong>
+                <span>Bois locaux et finitions naturelles</span>
+              </div>
+            </li>
+            <li>
+              <div class="about__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 7H4a2 2 0 00-2 2v6a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z"/><path d="M12 12h.01"/><path d="M8 12h.01"/><path d="M16 12h.01"/></svg>
+              </div>
+              <div>
+                <strong>Sur mesure</strong>
+                <span>Chaque projet adapté à vos envies et votre espace</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- RÉALISATIONS -->
+    <section class="portfolio" id="realisations">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__eyebrow">Réalisations</p>
+          <h2 class="section__title">Mes <em>créations</em></h2>
+          <p class="section__desc">Du mobilier aux petits objets du quotidien, chaque pièce raconte une histoire.</p>
+        </div>
+
+        <div class="portfolio__filters">
+          <button class="filter-btn active" data-filter="all">Tout</button>
+          <button class="filter-btn" data-filter="mobilier">Mobilier</button>
+          <button class="filter-btn" data-filter="rangement">Rangement</button>
+          <button class="filter-btn" data-filter="objets">Objets</button>
+          <button class="filter-btn" data-filter="restauration">Restauration</button>
+        </div>
+
+        <div class="portfolio__grid" id="portfolioGrid">
+
+          <article class="portfolio__item" data-category="mobilier">
+            <div class="portfolio__img">
+              <div class="portfolio__placeholder">
+                <svg viewBox="0 0 80 60" fill="none"><rect x="5" y="40" width="70" height="8" rx="2" fill="#8b5e3c" opacity="0.5"/><rect x="10" y="18" width="60" height="22" rx="2" fill="#8b5e3c" opacity="0.3"/><rect x="12" y="48" width="4" height="10" rx="1" fill="#8b5e3c" opacity="0.5"/><rect x="64" y="48" width="4" height="10" rx="1" fill="#8b5e3c" opacity="0.5"/></svg>
+              </div>
+              <div class="portfolio__overlay">
+                <span>Table de salle à manger</span>
+                <em>Chêne massif · 2024</em>
+              </div>
+            </div>
+            <div class="portfolio__info">
+              <h3>Table de salle à manger</h3>
+              <p>Chêne massif et pieds en acier forgé</p>
+            </div>
+          </article>
+
+          <article class="portfolio__item" data-category="rangement">
+            <div class="portfolio__img">
+              <div class="portfolio__placeholder">
+                <svg viewBox="0 0 80 60" fill="none"><rect x="10" y="5" width="60" height="50" rx="2" fill="#8b5e3c" opacity="0.3"/><rect x="10" y="25" width="60" height="2" fill="#8b5e3c" opacity="0.5"/><rect x="10" y="40" width="60" height="2" fill="#8b5e3c" opacity="0.5"/><circle cx="38" cy="17" r="2" fill="#8b5e3c" opacity="0.6"/><circle cx="38" cy="33" r="2" fill="#8b5e3c" opacity="0.6"/></svg>
+              </div>
+              <div class="portfolio__overlay">
+                <span>Bibliothèque sur mesure</span>
+                <em>Noyer · 2024</em>
+              </div>
+            </div>
+            <div class="portfolio__info">
+              <h3>Bibliothèque sur mesure</h3>
+              <p>Noyer avec finition à l'huile naturelle</p>
+            </div>
+          </article>
+
+          <article class="portfolio__item" data-category="mobilier">
+            <div class="portfolio__img">
+              <div class="portfolio__placeholder">
+                <svg viewBox="0 0 80 60" fill="none"><rect x="15" y="30" width="50" height="6" rx="2" fill="#8b5e3c" opacity="0.4"/><rect x="5" y="18" width="70" height="12" rx="3" fill="#8b5e3c" opacity="0.3"/><rect x="18" y="36" width="5" height="18" rx="1" fill="#8b5e3c" opacity="0.5"/><rect x="57" y="36" width="5" height="18" rx="1" fill="#8b5e3c" opacity="0.5"/></svg>
+              </div>
+              <div class="portfolio__overlay">
+                <span>Fauteuil en frêne</span>
+                <em>Frêne & tissu lin · 2023</em>
+              </div>
+            </div>
+            <div class="portfolio__info">
+              <h3>Fauteuil en frêne</h3>
+              <p>Frêne blanchi et assise tissu lin naturel</p>
+            </div>
+          </article>
+
+          <article class="portfolio__item" data-category="objets">
+            <div class="portfolio__img">
+              <div class="portfolio__placeholder">
+                <svg viewBox="0 0 80 60" fill="none"><ellipse cx="40" cy="45" rx="28" ry="6" fill="#8b5e3c" opacity="0.3"/><path d="M20 45 Q20 20 40 15 Q60 20 60 45" fill="#8b5e3c" opacity="0.2" stroke="#8b5e3c" stroke-width="1.5"/><ellipse cx="40" cy="15" rx="20" ry="5" fill="#8b5e3c" opacity="0.4"/></svg>
+              </div>
+              <div class="portfolio__overlay">
+                <span>Bol tourné</span>
+                <em>Merisier · 2024</em>
+              </div>
+            </div>
+            <div class="portfolio__info">
+              <h3>Bol tourné</h3>
+              <p>Merisier avec finition cire d'abeille</p>
+            </div>
+          </article>
+
+          <article class="portfolio__item" data-category="restauration">
+            <div class="portfolio__img">
+              <div class="portfolio__placeholder">
+                <svg viewBox="0 0 80 60" fill="none"><rect x="15" y="10" width="50" height="40" rx="3" fill="#8b5e3c" opacity="0.2" stroke="#8b5e3c" stroke-width="1.5" stroke-dasharray="3 2"/><rect x="22" y="17" width="36" height="26" rx="2" fill="#8b5e3c" opacity="0.3"/><path d="M30 30 L38 22 L50 34" stroke="#8b5e3c" stroke-width="1.5" fill="none"/></svg>
+              </div>
+              <div class="portfolio__overlay">
+                <span>Restauration armoire</span>
+                <em>XIXe siècle · 2023</em>
+              </div>
+            </div>
+            <div class="portfolio__info">
+              <h3>Restauration armoire</h3>
+              <p>Restauration et finition à la gomme-laque</p>
+            </div>
+          </article>
+
+          <article class="portfolio__item" data-category="rangement">
+            <div class="portfolio__img">
+              <div class="portfolio__placeholder">
+                <svg viewBox="0 0 80 60" fill="none"><rect x="10" y="8" width="28" height="46" rx="2" fill="#8b5e3c" opacity="0.3"/><rect x="42" y="8" width="28" height="46" rx="2" fill="#8b5e3c" opacity="0.3"/><rect x="5" y="52" width="70" height="4" rx="1" fill="#8b5e3c" opacity="0.4"/><circle cx="36" cy="30" r="2" fill="#8b5e3c" opacity="0.6"/><circle cx="44" cy="30" r="2" fill="#8b5e3c" opacity="0.6"/></svg>
+              </div>
+              <div class="portfolio__overlay">
+                <span>Dressing encastré</span>
+                <em>Chêne blanchi · 2024</em>
+              </div>
+            </div>
+            <div class="portfolio__info">
+              <h3>Dressing encastré</h3>
+              <p>Chêne blanchi, organisation entièrement personnalisée</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__eyebrow">Services</p>
+          <h2 class="section__title">Ce que je <em>propose</em></h2>
+        </div>
+        <div class="services__grid">
+          <div class="service-card">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="8" y="16" width="32" height="24" rx="2"/><path d="M16 16v-4a8 8 0 0116 0v4"/><circle cx="24" cy="28" r="3"/></svg>
+            </div>
+            <h3>Création sur mesure</h3>
+            <p>Tables, chaises, buffets, bibliothèques… Je conçois et fabrique le mobilier qui s'adapte parfaitement à votre intérieur et à votre style de vie.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 36l8-8m0 0l12-12m-12 12l-4-4m16-8l4-4"/><circle cx="34" cy="14" r="4"/><path d="M8 40h32"/></svg>
+            </div>
+            <h3>Restauration</h3>
+            <p>Redonner vie à un meuble ancien, consolider une structure fragilisée, retoucher une finition — je prends soin du patrimoine mobilier avec respect.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M24 8v8m0 16v8M8 24h8m16 0h8"/><circle cx="24" cy="24" r="8"/><path d="M17 17l5.5 5.5m3 3l5.5 5.5M31 17l-5.5 5.5m-3 3L17 31"/></svg>
+            </div>
+            <h3>Finitions & laques</h3>
+            <p>Huile dure, vernis naturel, cire d'abeille, peinture à la caséine, gomme-laque… Je choisis la finition qui met en valeur le bois et protège dans le temps.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="10" y="8" width="28" height="36" rx="2"/><path d="M16 20h16M16 28h10"/><circle cx="34" cy="36" r="6"/><path d="M32 36l2 2 4-4"/></svg>
+            </div>
+            <h3>Conseil & conception</h3>
+            <p>Avant toute fabrication, on discute de votre projet : dimensions, essence de bois, style, budget. Je vous accompagne de l'esquisse à la livraison.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHIFFRES -->
+    <section class="stats">
+      <div class="container stats__grid">
+        <div class="stat">
+          <strong class="stat__number" data-target="320">0</strong>
+          <span class="stat__label">pièces créées</span>
+        </div>
+        <div class="stat">
+          <strong class="stat__number" data-target="15">0</strong>
+          <span class="stat__label">années d'expérience</span>
+        </div>
+        <div class="stat">
+          <strong class="stat__number" data-target="98">0</strong>
+          <span class="stat__label">% de clients satisfaits</span>
+        </div>
+        <div class="stat">
+          <strong class="stat__number" data-target="8">0</strong>
+          <span class="stat__label">essences travaillées</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- TÉMOIGNAGES -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__eyebrow">Témoignages</p>
+          <h2 class="section__title">Ils me font <em>confiance</em></h2>
+        </div>
+        <div class="testimonials__grid">
+          <blockquote class="testimonial">
+            <p>« Natalie a réalisé notre table de salle à manger en chêne. Le résultat dépasse toutes nos attentes. Elle est à l'écoute, précise et le rendu est absolument magnifique. »</p>
+            <footer>
+              <strong>Marie & Luc D.</strong>
+              <span>Rennes</span>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>« J'avais une vieille armoire de famille abîmée. Nat' l'a restaurée avec un soin incroyable — on dirait qu'elle sort tout juste d'un ébéniste du XIXe. Merci !</p>
+            <footer>
+              <strong>Sylvie M.</strong>
+              <span>Nantes</span>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>« Un dressing entièrement sur mesure dans notre chambre mansardée. Parfaitement intégré, aucun espace perdu. Le travail est soigné, le suivi impeccable. »</p>
+            <footer>
+              <strong>Thomas R.</strong>
+              <span>Brest</span>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container contact__grid">
+        <div class="contact__info">
+          <p class="section__eyebrow">Contact</p>
+          <h2 class="section__title">Parlons de votre <em>projet</em></h2>
+          <p>Vous avez une idée, un meuble à restaurer ou simplement envie d'en savoir plus ? N'hésitez pas à me contacter. Je réponds sous 48 h.</p>
+
+          <ul class="contact__details">
+            <li>
+              <div class="contact__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <strong>Atelier</strong>
+                <span>Zone artisanale des Bruyères<br>22000 Saint-Brieuc, Bretagne</span>
+              </div>
+            </li>
+            <li>
+              <div class="contact__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.69 12a19.79 19.79 0 01-3.07-8.63A2 2 0 013.63 1.18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 8.77a16 16 0 006.29 6.29l.96-.96a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7a2 2 0 011.72 2.03z"/></svg>
+              </div>
+              <div>
+                <strong>Téléphone</strong>
+                <span>02 96 XX XX XX</span>
+              </div>
+            </li>
+            <li>
+              <div class="contact__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <strong>Email</strong>
+                <span>contact@nat-ebenisterie.fr</span>
+              </div>
+            </li>
+            <li>
+              <div class="contact__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              </div>
+              <div>
+                <strong>Horaires</strong>
+                <span>Lun – Ven : 8h – 18h<br>Samedi sur rendez-vous</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact__form-wrap">
+          <form class="contact__form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nom">Nom *</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" required />
+                <span class="form-error" id="nomError"></span>
+              </div>
+              <div class="form-group">
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" placeholder="votre@email.fr" required />
+              <span class="form-error" id="emailError"></span>
+            </div>
+            <div class="form-group">
+              <label for="telephone">Téléphone</label>
+              <input type="tel" id="telephone" name="telephone" placeholder="06 XX XX XX XX" />
+            </div>
+            <div class="form-group">
+              <label for="sujet">Type de projet *</label>
+              <select id="sujet" name="sujet" required>
+                <option value="" disabled selected>Choisissez un type de projet</option>
+                <option value="creation">Création sur mesure</option>
+                <option value="restauration">Restauration</option>
+                <option value="finition">Finition & laques</option>
+                <option value="conseil">Conseil & conception</option>
+                <option value="autre">Autre</option>
+              </select>
+              <span class="form-error" id="sujetError"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" rows="5" placeholder="Décrivez votre projet, vos dimensions, vos contraintes…" required></textarea>
+              <span class="form-error" id="messageError"></span>
+            </div>
+            <div class="form-group form-group--check">
+              <label class="checkbox-label">
+                <input type="checkbox" id="rgpd" name="rgpd" required />
+                <span class="checkbox-custom"></span>
+                <span>J'accepte que mes données soient utilisées pour traiter ma demande. *</span>
+              </label>
+              <span class="form-error" id="rgpdError"></span>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
+              <span>Envoyer mon message</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+            <div class="form-success" id="formSuccess">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <p>Message envoyé ! Je vous recontacte sous 48 h.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <p class="footer__logo">Nat' <span>Ébénisterie</span></p>
+        <p>Mobilier artisanal fait main en Bretagne.<br>Chaque pièce, une histoire.</p>
+      </div>
+      <nav class="footer__nav">
+        <a href="#accueil">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#realisations">Réalisations</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer__copy">© 2026 Nat' Ébénisterie — Tous droits réservés</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
